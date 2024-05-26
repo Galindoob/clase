@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de promedio</title>
+</head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <script src="app.js"></script>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-header bg-primary text-white">
+         Desarrollo Web
+        </div>
+        <div class="card-body">
+          <form id="formulario">
+            <div class="form-group">
+              <label for="nombreAlumno">Nombre del Alumno</label>
+              <input type="text" class="form-control" id="nombreAlumno" placeholder="Ingrese el nombre del alumno">
+            </div>
+            <div class="form-group">
+              <label for="nota1">Nota 1</label>
+              <input type="number" class="form-control" id="nota1" placeholder="Ingrese la nota 1">
+            </div>
+            <div class="form-group">
+              <label for="nota2">Nota 2</label>
+              <input type="number" class="form-control" id="nota2" placeholder="Ingrese la nota 2">
+            </div>
+            <div class="form-group">
+              <label for="nota3">Nota 3</label>
+              <input type="number" class="form-control" id="nota3" placeholder="Ingrese la nota 3">
+            </div>
+            <button type="button" class="btn btn-success" onclick="guardar()">Guardar</button>
+            <button type="button" class="btn btn-primary" onclick="promCurso()">Prom Curso</button>
+            <button type="button" class="btn btn-info" onclick="promAlumno()">Prom Alumno</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
